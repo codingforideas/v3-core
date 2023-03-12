@@ -41,6 +41,9 @@ export default {
     polygon: {
       url: `https://polygon-mainnet.infura.io/v3/${process.env.INFURA_API_KEY}`,
     },
+    sepolia: {
+      url: `https://sepolia.infura.io/v3/${process.env.SEPOLIA_API_KEY}`,
+    },
   },
   etherscan: {
     // Your API key for Etherscan
